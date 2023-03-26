@@ -20,7 +20,7 @@ body {
 }
 h1,
 h2,
-h3{
+h3 {
   margin: 0;
   padding: 0;
 }
@@ -30,10 +30,10 @@ img {
 ul {
   list-style: none;
 }
-.card-country{
+.card-country {
   margin-left: 35px;
 }
-.country-item{
+.country-item {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -43,15 +43,15 @@ ul {
 .information {
   font-size: 20px;
 }
-.image-flag{
+.image-flag {
   width: 30px;
   height: 30px;
   display: inline-block;
 }
-.name-country{
+.name-country {
   font-size: 18px;
 }
-.flag{
+.flag {
   width: 90px;
   height: 40px;
 }
