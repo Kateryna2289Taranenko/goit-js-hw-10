@@ -31,22 +31,30 @@ ul {
   list-style: none;
 }
 .card-country {
+  display: flex;
   margin-left: 35px;
+}
+.country-list {
+  display: flex;
+  flex-direction: column;
 }
 .country-item {
   list-style: none;
   display: flex;
-  flex-direction: column;
-  gap: 5px;
-  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 10px;
 }
 .information {
   font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .image-flag {
   width: 30px;
   height: 30px;
   display: inline-block;
+  margin-right: 10px;
 }
 .name-country {
   font-size: 18px;
@@ -54,4 +62,5 @@ ul {
 .flag {
   width: 90px;
   height: 40px;
+  margin-right: 10px;
 }

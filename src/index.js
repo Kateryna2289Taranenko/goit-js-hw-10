@@ -57,7 +57,7 @@ function createCountry(data) {
          </li>
          <li class="country-item">
            <h2>Languages:</h2>
-           <p class="information">${Object.values(languages)}</p>
+           <p class="information">${Object.values(languages).join(', ')}</p>
          </li>
        </ul>`;
     })
